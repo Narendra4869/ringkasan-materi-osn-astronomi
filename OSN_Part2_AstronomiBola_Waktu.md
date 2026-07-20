@@ -2,8 +2,6 @@
 
 *(Part 2 dari seri Ringkasan OSN Astronomi — lihat Part 1 untuk daftar isi keseluruhan)*
 
-> **Catatan format:** Bab ini sangat geometris. Karena Markdown tidak bisa menggambar bola langit 3D, saya sisipkan diagram alur `mermaid` untuk hal yang bersifat prosedural/hierarkis (alur transformasi koordinat, logika kalender), dan **placeholder eksplisit** `[Sisipkan Diagram ...]` di titik-titik krusial tempat kamu (atau saya lewat tool visualisasi terpisah jika diminta) perlu menambahkan gambar bola langit sebenarnya. Setiap placeholder saya lengkapi deskripsi tertulis rinci tentang apa yang harus digambar, sehingga tetap bisa dipelajari tanpa gambarnya.
-
 ---
 
 ## Daftar Isi Bab Ini
