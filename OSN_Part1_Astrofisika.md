@@ -17,8 +17,6 @@ Dokumen ini akan diterbitkan bertahap dalam beberapa file agar tetap efisien dan
 | 11 | OSN_Part11_Instrumen.md | XII. Instrumen Astronomi | Menyusul |
 | 12 | OSN_Part12_RumusRingkas_PetaKonsep.md | Rangkuman rumus, peta konsep, topik tersering | Menyusul |
 
-**Cara pakai:** balas "lanjut Part 2", dst., dan saya akan susulkan bab berikutnya dengan kedalaman yang sama. Sumber utama: *Fundamental Astronomy* (Karttunen dkk., ed. 6) — bab 4, 5, 9, 11, 13 relevan untuk Part 1 ini — disintesis ulang, bukan dikutip langsung, dan dilengkapi bagian **[Tambahan]** untuk topik silabus yang tidak eksplisit ada di buku (mis. neutrino, radioaktivitas detail).
-
 ---
 
 # BAB I — ASTROFISIKA
@@ -33,8 +31,6 @@ Dokumen ini akan diterbitkan bertahap dalam beberapa file agar tetap efisien dan
 6. [Hukum Kuadrat-Terbalik, Magnitudo, Diagram H-R](#6)
 7. [Radiasi Benda Hitam Detail: Rayleigh-Jeans, Planck, Wien, Stefan-Boltzmann](#7)
 8. [Sifat Cahaya: Dualisme, Kirchhoff, Model Bohr, Doppler](#8)
-
-> **Catatan struktur:** Poin silabus 1, 6, 7, 8 sangat tumpang-tindih (semuanya bicara soal radiasi & cahaya). Saya susun ulang agar tidak duplikatif: konsep radiasi umum ada di §1, sementara hukum benda hitam yang kuantitatif (Planck, Wien, Stefan-Boltzmann) dibahas mendalam di §7, dan aplikasi ke magnitudo/jarak di §6. Silakan lompat sesuai kebutuhan.
 
 ---
 
