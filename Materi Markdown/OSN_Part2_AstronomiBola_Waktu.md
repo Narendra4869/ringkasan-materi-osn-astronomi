@@ -38,14 +38,15 @@ Untuk memindah-mindahkan (transformasi) sudut antar sistem koordinat berbeda, ki
 - **Lingkaran kecil (small circle)** — perpotongan bola dengan bidang yang TIDAK melalui pusat. Contoh: lingkaran deklinasi konstan (paralel lintang langit).
 - **Segitiga bola** — dibentuk oleh tiga busur lingkaran besar. Berbeda dari segitiga datar: **jumlah sudutnya > 180°**, dan luasnya berbanding lurus dengan **kelebihan bola (spherical excess)** $E = A+B+C-180°$.
 
-```
+<!--
 [Sisipkan Diagram: Segitiga Bola Umum]
 Deskripsi: Bola dengan tiga titik A, B, C di permukaannya, dihubungkan
 oleh tiga busur lingkaran besar (sisi a=BC, b=CA, c=AB, huruf kecil
 sesuai sudut pusat/sisi di seberang titik berhuruf besar yang sama).
 Tunjukkan sudut A, B, C di setiap titik sudut sebagai sudut antara
 dua busur yang bertemu di titik tersebut.
-```
+-->
+<img src="asset/images/segitiga_bola_umum.png" alt="Segitiga bola umum" width="600" />
 
 ### B. Rumus Penting
 
@@ -126,7 +127,7 @@ flowchart LR
     end
 ```
 
-```
+<!--
 [Sisipkan Diagram: Bola Langit dengan Kelima Sistem Koordinat]
 Deskripsi: Bola langit dengan pengamat di pusat. Tunjukkan:
 (1) Bidang horizon (mendatar) dengan zenith di atas, nadir di bawah,
@@ -139,13 +140,14 @@ Deskripsi: Bola langit dengan pengamat di pusat. Tunjukkan:
 Tunjukkan satu bintang X dengan garis-garis proyeksi ke masing-masing
 bidang acuan, dan sudut-sudut a, A, δ, α/h, β, λek digambar secara
 eksplisit dari bintang tersebut.
-```
+-->
+<img src="asset/images/bola_langit_kelima_sistem.png" alt="Bola langit dengan kelima sistem koordinat" width="600" />
 
 ### B. Rumus Penting — Transformasi Horizontal ↔ Ekuatorial
 
 Kunci: gunakan **segitiga bola paralaktik / "segitiga nautika"** dengan tiga titik sudut **Kutub Langit (P), Zenith (Z), Bintang (X)** — sering disebut **segitiga PZX**.
 
-```
+<!--
 [Sisipkan Diagram: Segitiga Bola PZX]
 Deskripsi: Bola langit dengan tiga titik: P (Kutub Langit Utara),
 Z (Zenith pengamat), X (posisi bintang). Sisi PZ = 90°-φ (colatitude
@@ -153,12 +155,13 @@ pengamat). Sisi ZX = z = jarak zenit bintang (90°-a). Sisi PX =
 90°-δ (co-declination bintang). Sudut di P = h (sudut jam bintang).
 Sudut di Z = 360°-A atau A tergantung konvensi (azimut diukur dari
 Utara/Selatan). Sudut di X = sudut paralaktik q (jarang dipakai
-langsung di OSN Penyisihan, tapi penting utk polarimetri/spektroskopi
+directly di OSN Penyisihan, tapi penting utk polarimetri/spektroskopi
 resolusi tinggi).
 Ini adalah SATU diagram paling penting di seluruh Bab Astronomi Bola —
 hampir semua rumus transformasi horizontal-ekuatorial diturunkan dari
 segitiga ini.
-```
+-->
+<img src="asset/images/segitiga_pzx.png" alt="Segitiga bola PZX" width="600" />
 
 | Nama | Rumus | Keterangan |
 |---|---|---|
@@ -229,7 +232,7 @@ Pada kedua momen ini, $\delta_\odot=0$, siang-malam hampir sama panjang di selur
 - **Summer solstice** (~21 Juni): $\delta_\odot=+\varepsilon\approx+23{,}5°$ — siang terpanjang di belahan utara.
 - **Winter solstice** (~21 Desember): $\delta_\odot=-\varepsilon$ — siang terpendek di belahan utara.
 
-```
+<!--
 [Sisipkan Diagram: Orbit Bumi Mengelilingi Matahari dengan 4 Titik Musim]
 Deskripsi: Elips orbit Bumi mengelilingi Matahari (fokus di Matahari).
 Tandai 4 posisi Bumi: vernal equinox (Maret), summer solstice (Juni),
@@ -238,7 +241,8 @@ posisi, gambar sumbu rotasi Bumi (dimiringkan konstan 23,5° terhadap
 normal bidang orbit, SEJAJAR untuk semua posisi -- ini kunci konsep
 yang sering disalahpahami siswa, arah sumbu TIDAK berubah mengikuti
 orbit). Tunjukkan belahan mana yang condong ke Matahari di tiap titik.
-```
+-->
+<img src="asset/images/orbit_bumi_empat_musim.png" alt="Orbit Bumi dengan empat titik musim" width="600" />
 
 **Bintang sirkumpolar (circumpolar star)** — bintang yang tidak pernah terbenam (selalu di atas horizon) bagi pengamat di lintang tertentu. Syarat: $\delta>90°-|\varphi|$ (belahan yang sama dengan pengamat). Sebaliknya, bintang dengan $\delta<-(90°-|\varphi|)$ (belahan berlawanan) tidak pernah terbit — **selalu tak terlihat**.
 
@@ -289,7 +293,7 @@ Ada dua "jam kosmik" alami berdasarkan rotasi Bumi, tergantung acuan yang dipaka
 
 **Mengapa beda?** Selama Bumi berotasi sekali penuh (1 hari sideris), Bumi juga sudah bergerak ~1° sepanjang orbitnya mengelilingi Matahari, sehingga Bumi harus berotasi sedikit lebih jauh lagi agar Matahari kembali berkulminasi — hari surya jadi **lebih panjang** ~3 menit 56 detik dari hari sideris.
 
-```
+<!--
 [Sisipkan Diagram: Geometri Hari Sideris vs Hari Surya]
 Deskripsi: Dua posisi Bumi mengorbit Matahari, posisi A dan posisi B
 (sedikit bergeser di orbit, mewakili pergerakan Bumi selama ~1 hari).
@@ -302,7 +306,8 @@ BELUM (karena posisi Bumi berubah) -- Bumi harus berotasi sedikit lagi
 (~1°, digambar sebagai sudut kecil ε pada diagram) agar Matahari
 kembali berkulminasi. Sudut kecil inilah yang setara dengan selisih
 3 menit 56 detik.
-```
+-->
+<img src="asset/images/geometri_hari_sideris_surya.png" alt="Geometri hari sideris vs hari surya" width="600" />
 
 ### B. Rumus Penting
 
@@ -350,7 +355,7 @@ Untuk mengatasi ini, didefinisikan **Matahari rata-rata (mean sun)** fiktif yang
 
 **Persamaan waktu** = selisih antara waktu Matahari sejati dan waktu Matahari rata-rata.
 
-```
+<!--
 [Sisipkan Diagram: Kurva Analemma / Grafik Persamaan Waktu Sepanjang Tahun]
 Deskripsi: Grafik sumbu-x = bulan (Jan-Des), sumbu-y = E.T. dalam
 menit, berbentuk kurva berosilasi dengan dua puncak dan dua lembah
@@ -360,7 +365,8 @@ Februari), serta titik potong nol di sekitar April, Juni, September,
 Desember. (Alternatif: bentuk analemma "angka 8" jika sumbu-y diganti
 deklinasi Matahari, sumbu-x tetap E.T. -- bentuk klasik yang sering
 terlihat pada globe/foto time-lapse Matahari.)
-```
+-->
+<img src="asset/images/kurva_analemma.png" alt="Kurva analemma" width="600" />
 
 ### B. Rumus Penting
 

@@ -63,7 +63,7 @@ Tiga hukum empiris Johannes Kepler (berdasarkan data pengamatan Tycho Brahe), ya
 2. **Hukum II** — vektor radius (Matahari-planet) menyapu **luas yang sama dalam waktu yang sama** (kecepatan sapuan/*areal velocity* konstan) — konsekuensi langsung kekekalan momentum sudut.
 3. **Hukum III** — kuadrat periode orbit sebanding pangkat tiga sumbu semi-mayor: $P^2\propto a^3$.
 
-```
+<!--
 [Sisipkan Diagram: Elips Orbit dengan Elemen Geometrisnya]
 Deskripsi: Elips dengan Matahari (S) di salah satu fokus. Tandai:
 sumbu semi-mayor a, sumbu semi-minor b, eksentrisitas e (jarak
@@ -71,7 +71,8 @@ fokus-pusat = ae), titik perihelion (P, jarak terdekat = a(1-e))
 dan aphelion (paling jauh = a(1+e)). Gambar juga sebuah titik X
 pada elips dengan garis SX (radius vector r), sudut anomali sejati
 f diukur dari arah perihelion ke SX.
-```
+-->
+<img src="asset/images/elips_orbit_elemen.png" alt="Elips orbit dengan elemen geometris" width="600" />
 
 ### B. Rumus Penting
 
@@ -120,7 +121,7 @@ $$P^2=a^3=15{,}25^3\approx3548 \Rightarrow P\approx59{,}6\text{ tahun}$$
 
 **Barycenter (pusat massa sistem)** — titik di mana dua (atau lebih) benda yang saling mengorbit sebenarnya **sama-sama** mengelilingi, bukan satu mengelilingi yang lain secara literal. Untuk sistem dua benda $m_1,m_2$ terpisah jarak $d$, barycenter berada pada jarak $d_1=\dfrac{m_2}{m_1+m_2}d$ dari $m_1$ (dan $d_2=\dfrac{m_1}{m_1+m_2}d$ dari $m_2$), memenuhi $m_1d_1=m_2d_2$.
 
-```
+<!--
 [Sisipkan Diagram: Barycenter Sistem Bumi-Bulan]
 Deskripsi: Bumi (besar) dan Bulan (kecil) dengan garis penghubung.
 Tandai titik barycenter B di antara keduanya (KHUSUS untuk sistem
@@ -128,7 +129,8 @@ Bumi-Bulan, titik ini masih berada DI DALAM Bumi, sekitar 4670 km
 dari pusat Bumi -- karena rasio massa Bumi:Bulan ≈ 81:1). Gambar
 kedua benda mengorbit mengelilingi B, bukan Bulan mengorbit pusat
 Bumi secara literal.
-```
+-->
+<img src="asset/images/barycenter_bumi_bulan.png" alt="Barycenter sistem Bumi-Bulan" width="600" />
 
 ### B. Rumus Penting
 
@@ -177,7 +179,7 @@ $$d\approx2{,}44\times6371\times\left(\frac{5500}{3000}\right)^{1/3}=2{,}44\time
 - $L_1, L_2, L_3$ — segaris dengan kedua primer, tapi **tidak stabil** (gangguan kecil menyebabkan benda menjauh).
 - $L_4, L_5$ — membentuk **segitiga sama sisi** dengan kedua primer, dan **stabil** (untuk rasio massa primer yang cukup ekstrem) — di sinilah **asteroid Trojan** Jupiter ditemukan, mengikuti/mendahului Jupiter $60°$ di orbitnya.
 
-```
+<!--
 [Sisipkan Diagram: Lima Titik Lagrange]
 Deskripsi: Dua benda primer (mis. Matahari besar di kiri, planet
 kecil di kanan) dengan garis penghubung. Tandai L1 di ANTARA kedua
@@ -188,11 +190,12 @@ L4 dan L5 membentuk segitiga sama sisi dengan garis primer-primer,
 satu di atas garis (L4, mendahului arah orbit planet) dan satu di
 bawah (L5, mengikuti arah orbit planet). Beri anotasi: L1,L2,L3
 tidak stabil; L4,L5 stabil.
-```
+-->
+<img src="asset/images/lima_titik_lagrange.png" alt="Lima titik Lagrange" width="600" />
 
 **Pasang surut (tides)** — deformasi & gaya diferensial akibat variasi kekuatan gravitasi benda pengganggu pada sisi dekat vs sisi jauh suatu benda (mekanisme SAMA dengan yang menghasilkan Limit Roche, tapi di sini benda tidak sampai hancur — hanya berubah bentuk / air laut naik-turun).
 
-```
+<!--
 [Sisipkan Diagram: Geometri Gaya Pasang Surut Bumi-Bulan]
 Deskripsi: Bumi (lingkaran) dengan Bulan jauh di kanan. Gambar
 gaya gravitasi Bulan pada TIGA titik di Bumi: sisi dekat Bulan (gaya
@@ -204,7 +207,8 @@ NETO di sisi dekat mengarah MENJAUH dari Bumi (ke arah Bulan), dan
 di sisi jauh JUGA mengarah menjauh dari Bumi (ke arah berlawanan
 Bulan) -- inilah mengapa ada DUA tonjolan pasang surut (bulge),
 bukan hanya satu, menghasilkan 2 kali pasang naik per hari (bukan 1).
-```
+-->
+<img src="asset/images/geometri_pasangsurut_bumi_bulan.png" alt="Geometri gaya pasang surut Bumi-Bulan" width="600" />
 
 ### B. Rumus Penting
 
@@ -279,7 +283,7 @@ Solusi lengkap problem dua-benda butuh **enam konstanta integrasi** (karena pers
 | Argumen perihelion | $\omega$ | Arah perihelion, diukur dari node menaik sepanjang bidang orbit |
 | Waktu perihelion | $\tau$ (atau anomali rata-rata $M$ pada epoch tertentu) | "Jam" orbit — kapan benda berada di perihelion |
 
-```
+<!--
 [Sisipkan Diagram: Elemen Orbit dalam Ruang 3D]
 Deskripsi: Bidang acuan (ekliptika) sebagai bidang horizontal datar
 dengan arah ke titik Aries (♈) ditandai. Bidang orbit benda langit
@@ -291,14 +295,15 @@ ekliptika), dan sudut ω (dari node menaik ke arah perihelion,
 diukur sepanjang bidang orbit itu sendiri). Ini diagram elemen orbit
 paling standar di semua buku astronomi -- kunci menghubungkan
 orientasi orbit 3D nyata dengan sistem koordinat langit (Bab II).
-```
+-->
+<img src="asset/images/elemen_orbit_3d.png" alt="Elemen orbit dalam ruang 3D" width="600" />
 
 **Tiga jenis "anomali" (sudut yang menyatakan posisi benda dalam orbit)** — sering membingungkan siswa, penting dibedakan:
 - **Anomali sejati ($f$ atau $\nu$)** — sudut aktual dari perihelion ke posisi benda, dilihat dari fokus (Matahari). Yang "nyata" secara geometris.
 - **Anomali eksentrik ($E$)** — sudut bantu geometris (diproyeksikan ke lingkaran bantu berjari-jari $a$ yang mengelilingi elips).
 - **Anomali rata-rata ($M$)** — sudut fiktif yang berubah **linear** terhadap waktu (seakan benda bergerak melingkar beraturan) — inilah yang mudah dihitung langsung dari waktu, tapi TIDAK sama dengan posisi sudut sebenarnya kecuali orbit lingkaran sempurna ($e=0$).
 
-```
+<!--
 [Sisipkan Diagram: Tiga Anomali E, f, M pada Elips]
 Deskripsi: Elips dengan fokus S (Matahari) dan pusat geometris C.
 Gambar lingkaran bantu berjari-jari a (sumbu semi-mayor) berpusat
@@ -310,7 +315,8 @@ CX' diukur dari arah perihelion (dilihat dari PUSAT C, ke titik
 proyeksi pada lingkaran bantu) -- ini anomali eksentrik. M tidak
 bisa digambar langsung secara geometris (murni definisi waktu:
 M = (2π/P)(t-τ)) tapi beri catatan teks di sudut diagram.
-```
+-->
+<img src="asset/images/tiga_anomali.png" alt="Tiga anomali pada elips" width="600" />
 
 ### B. Rumus Penting
 

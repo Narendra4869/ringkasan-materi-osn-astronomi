@@ -51,7 +51,7 @@
 
 **Mengapa tidak terjadi gerhana setiap bulan?** Bidang orbit Bulan miring $\approx5°$ terhadap ekliptika — gerhana hanya mungkin terjadi saat fase bulan baru/purnama **DAN** Bulan berada dekat salah satu **node** (titik potong orbit Bulan dengan ekliptika).
 
-```
+<!--
 [Sisipkan Diagram: Geometri Gerhana Matahari — Umbra dan Penumbra]
 Deskripsi: Matahari (kiri, besar), Bulan (tengah, kecil), Bumi (kanan).
 Gambar dua kerucut bayangan dari Bulan: kerucut GELAP sempit (umbra)
@@ -63,9 +63,10 @@ berada di titik terjauh orbitnya (apogee) saat gerhana, ujung umbra
 tidak mencapai permukaan Bumi (menyempit menjadi titik SEBELUM sampai
 Bumi) sehingga yang terlihat adalah cincin cahaya Matahari mengelilingi
 Bulan → gerhana CINCIN (annular).
-```
+-->
+<img src="asset/images/gerhana_matahari_umbra_penumbra.png" alt="Geometri gerhana Matahari" width="600" />
 
-```
+<!--
 [Sisipkan Diagram: Geometri Gerhana Bulan — Umbra dan Penumbra Bumi]
 Deskripsi: Matahari (kiri jauh), Bumi (tengah, lebih besar dari Bulan),
 Bulan (kanan, bergerak melalui bayangan Bumi). Gambar kerucut umbra
@@ -75,7 +76,8 @@ Bumi lebih besar dari Bulan). Tunjukkan 3 kemungkinan lintasan Bulan:
 melalui umbra → gerhana bulan SEBAGIAN, (3) hanya melalui penumbra
 (tidak menyentuh umbra) → gerhana PENUMBRA (sulit dilihat mata
 telanjang, kecerlangan Bulan nyaris tak berubah).
-```
+-->
+<img src="asset/images/gerhana_bulan_umbra_penumbra.png" alt="Geometri gerhana Bulan" width="600" />
 
 **Klasifikasi gerhana Matahari:**
 | Jenis | Syarat geometris |
